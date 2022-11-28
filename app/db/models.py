@@ -13,4 +13,31 @@ class OrderReviews(Base):
 class OrderPayments(Base):
     pass
 
-# CONTINUAR ARMANDO LOS MODELOS
+
+class ProducCategory(Base):
+    pass
+
+
+class Sellers(Base):
+    pass
+
+
+class Products(Base):
+    pass
+
+
+class Orders(Base):
+    pass
+
+
+class OrderItems(Base):
+    pass
+
+
+class customer(Base):
+    pass
+
+
+class geolocation(Base):
+    pass
+
