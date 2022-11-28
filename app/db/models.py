@@ -6,4 +6,11 @@ from sqlalchemy.schema import ForeignKey
 from sqlalchemy.orm import relationship
 
 
-class ()
+class OrderReviews(Base):
+    pass
+
+
+class OrderPayments(Base):
+    pass
+
+# CONTINUAR ARMANDO LOS MODELOS
