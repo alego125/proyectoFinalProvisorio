@@ -4,7 +4,6 @@ from sqlalchemy.orm import sessionmaker
 from core.config import settings
 
 # Declaramos una constante que es la que se encargara de hacer la conexion
-# SQLALCHEMY_DATABASE_URL = "postgresql://postgres:admin@localhost:5432/postgres"
 SQLALCHEMY_DATABASE_URL = settings.DATABASE_URL
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 SessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False)
