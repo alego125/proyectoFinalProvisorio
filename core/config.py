@@ -4,7 +4,7 @@ from pathlib import Path
 
 #Lo primero que debemos hacer es ubicar donde esta nuestro .env
 env_path = Path('.') / '.env' # Esto lo que hace es volver una carpeta atras donde esta el archivo .env
-load_dotenv(dotenv_path=env_path) # Cargamos el archivo de .env a travez del env_path
+load_dotenv(dotenv_path=env_path) # Cargamos el archivo de .env a traves del env_path
 
 class Settings:
     PROJECT_NAME:str = "PROYECTO-FAST-API"
